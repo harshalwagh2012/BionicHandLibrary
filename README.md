@@ -24,11 +24,11 @@ The library enables multi-domain modeling (mechanical, electrical, and thermal) 
 - Kinematics: Forward and inverse kinematics support for finger trajectories.
 
 ## Methodology
-- Component Modeling: Body shapes, revolute joints, and phalanges.
-- Finger Modeling: Parameterized models for single and multiple fingers.
-- Thumb and Palm: Independent thumb modeling and palm integration.
-- Control System: Feedback-based actuation of finger joints.
-- Kinematics: Forward and inverse mapping between fingertip positions and joint angles.
+1. Component Modeling: Body shapes, revolute joints, and phalanges.
+2. Finger Modeling: Parameterized models for single and multiple fingers.
+3. Thumb and Palm: Independent thumb modeling and palm integration.
+4. Control System: Feedback-based actuation of finger joints.
+5. Kinematics: Forward and inverse mapping between fingertip positions and joint angles.
 
 ## Getting Started
 ### Requirements
@@ -36,10 +36,10 @@ The library enables multi-domain modeling (mechanical, electrical, and thermal) 
 - Standard Modelica libraries.
 
 ## Running Simulations
-- Open the BionicHandLibrary package in your Modelica tool.
-- Navigate to the Examples package.
-- Load the desired model (e.g., PinchGrip.mo, ShockerSign.mo).
-- Set simulation time (e.g., 10s) and run the model.
-- Plot joint angles, forces, or electrical data from results.
+1. Open the BionicHandLibrary package in your Modelica tool.
+2. 2Navigate to the Examples package.
+3. Load the desired model (e.g., PinchGrip.mo, ShockerSign.mo).
+4. Set simulation time (e.g., 10s) and run the model.
+5. Plot joint angles, forces, or electrical data from results.
 
 
